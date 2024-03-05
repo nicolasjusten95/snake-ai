@@ -77,10 +77,10 @@ class SnakeGame:
         self.snake.insert(0, self.head)
 
         # 3. check if game over
-        game_over = False
+        is_game_over = False
         if self._is_collision():
-            game_over = True
-            return game_over, self.score
+            is_game_over = True
+            return is_game_over, self.score
 
         # 4. place new food or just move
         if self.head == self.food:
@@ -93,7 +93,7 @@ class SnakeGame:
         self._update_ui()
         self.clock.tick(SPEED)
         # 6. return game over and score
-        return game_over, self.score
+        return is_game_over, self.score
 
     def _is_collision(self):
         # hits boundary
