@@ -4,11 +4,11 @@ Welcome to my Snake AI project, a classic snake game with a twist! This project 
 
 ## Features
 
-![image Screenshot](snake_ai.png)
-
 - **Human Mode**: Take control and guide the snake using keyboard arrow keys.
 - **AI Mode**: Watch an artificial intelligence learn the game, improving after each round.
 - **Performance Tracking**: Visualize the AI's progress with dynamic score plots showing the score and average score for each game played.
+
+![image Screenshot](snake_ai.png)
 
 ## Getting Started
 
