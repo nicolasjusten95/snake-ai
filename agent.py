@@ -6,8 +6,8 @@ from snake_game_ai import SnakeGameAi, Direction, Point
 from model import LinearQNet, QTrainer
 from helper import plot
 
-MAX_MEMORY = 500_000
-BATCH_SIZE = 5000
+MAX_MEMORY = 200_000
+BATCH_SIZE = 2000
 LR = 0.001
 
 
