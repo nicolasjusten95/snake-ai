@@ -12,7 +12,7 @@ Welcome to my Snake AI project, a classic snake game with a twist! This project 
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisite
 
 Ensure you have Python 3.X installed on your machine. This game was developed and tested with Python 3.10.6.
 
